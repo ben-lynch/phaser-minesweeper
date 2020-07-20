@@ -18,6 +18,10 @@ function preload() {
   this.load.image("logo", logoImg);
 }
 
+function test() {
+  console.log('nothing')
+}
+
 function create() {
   const logo = this.add.image(400, 150, "logo");
 
